@@ -29,7 +29,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. The header links to all site pages with branded styling; the footer shows company info and navigation links
   4. The site is fully usable on a 375px mobile viewport with touch-friendly tap targets
   5. Interactive elements (buttons, links, cards) have visible hover states and smooth transitions
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Font conversion, Tailwind v4 theme tokens, and BaseLayout preloading
+- [ ] 01-02-PLAN.md — Branded Header with full navigation and branded Footer
+- [ ] 01-03-PLAN.md — Micro-interaction button styles and visual verification checkpoint
 
 ### Phase 2: Homepage
 **Goal**: A visitor landing on the homepage immediately understands what ABC Deal Toys sells, why it's premium, and where to go next
@@ -68,7 +73,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Design System | 0/TBD | Not started | - |
+| 1. Design System | 0/3 | Planning complete | - |
 | 2. Homepage | 0/TBD | Not started | - |
 | 3. Brand Content Pages | 0/TBD | Not started | - |
 | 4. Product Customization | 0/TBD | Not started | - |
