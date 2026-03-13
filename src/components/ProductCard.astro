@@ -13,7 +13,7 @@ const { product } = Astro.props as Props;
 
 <a
   href={`/products/${product?.handle}`}
-  class="group overflow-hidden rounded-lg border-l-orange-100 shadow hover:shadow-md"
+  class="group overflow-hidden rounded-lg border border-navy/10 shadow-sm hover:shadow-md transition-shadow duration-200"
 >
   <div class="relative">
     <ShopifyImage
@@ -53,9 +53,9 @@ const { product } = Astro.props as Props;
       </button>
     </div>
   </div>
-  <div class="flex justify-between py-6 px-5 text-zinc-700">
-    <h3 class="group-hover:underline">{product?.title}</h3>
-    <p class="font-bold">
+  <div class="flex justify-between py-6 px-5 text-navy">
+    <h3 class="group-hover:text-gold transition-colors">{product?.title}</h3>
+    <p class="font-semibold text-gold">
       <Money price={product?.variants.nodes[0].price} />
     </p>
   </div>

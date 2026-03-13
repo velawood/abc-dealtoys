@@ -73,7 +73,7 @@
             <div class="flex flex-col min-h-full max-h-screen">
               <div class="flex items-start justify-between shadow-sm p-5">
                 <h2
-                  class="text-2xl flex gap-4 items-center font-bold text-zinc-800"
+                  class="text-2xl flex gap-4 items-center font-bold text-navy"
                   id="slide-over-title"
                 >
                   Your cart
@@ -156,6 +156,16 @@
                             >
                               {item.merchandise.product.title}
                             </a>
+                            {#if item.attributes && item.attributes.length > 0}
+                              <dl class="mt-1 space-y-0.5">
+                                {#each item.attributes as attr}
+                                  <div class="flex gap-1 text-xs text-navy/60">
+                                    <dt class="font-medium">{attr.key}:</dt>
+                                    <dd>{attr.value}</dd>
+                                  </div>
+                                {/each}
+                              </dl>
+                            {/if}
                             <p class="text-xs">
                               <Money price={item.cost.amountPerQuantity} />
                             </p>
@@ -199,7 +209,7 @@
                       <p class="text-gray-500">Your cart is empty</p>
                       <a
                         href="/"
-                        class="font-semibold text-emerald-900 hover:text-emerald-700"
+                        class="font-semibold text-gold hover:text-gold/80"
                       >
                         Continue Shopping
                         <span aria-hidden="true"> &rarr;</span>
@@ -227,7 +237,7 @@
                       Shipping and taxes calculated at checkout.
                     </p>
                     <div class="mt-6">
-                      <a href={$cart.checkoutUrl} class="button">Checkout</a>
+                      <a href={$cart.checkoutUrl} class="button w-full text-center">Checkout</a>
                     </div>
                   </div>
                 {/if}
