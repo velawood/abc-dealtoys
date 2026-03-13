@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 01-design-system/01-02-PLAN.md
-last_updated: "2026-03-13T01:47:05.481Z"
+stopped_at: "Checkpoint 02-01 Task 3: awaiting visual verification of homepage"
+last_updated: "2026-03-13T01:50:43.817Z"
 last_activity: "2026-03-12 — Plan 01-02 complete: branded Header/Footer with full nav and MobileNav overlay"
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 6
-  completed_plans: 2
-  percent: 20
+  completed_plans: 3
+  percent: 33
 ---
 
 # Project State
@@ -50,6 +50,7 @@ Progress: [███░░░░░░░] 33%
 - Trend: —
 
 *Updated after each plan completion*
+| Phase 02-homepage P01 | 3 | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -66,6 +67,9 @@ Recent decisions affecting current work:
 - [Phase 01-design-system]: AnnouncementBar removed from BaseLayout — component retained but not rendered
 - [Phase 01-design-system]: Svelte 5 runes ($state) used for MobileNav local state — cleaner than stores for component-scoped toggle
 - [Phase 01-design-system]: Logo.astro not modified in 01-02 — real ABC brand logo replacement deferred pending asset delivery
+- [Phase 02-homepage]: svelte-inview v4.0.4 installed -- oninview_enter event handler confirmed compatible with Svelte 5 syntax
+- [Phase 02-homepage]: Direct ProductCard import in index.astro avoids double-nested container from Products.astro wrapper
+- [Phase 02-homepage]: client:visible hydration for ScrollReveal -- correct pattern for intersection-observer Svelte components
 
 ### Pending Todos
 
@@ -78,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-13T01:47:05.480Z
-Stopped at: Completed 01-design-system/01-02-PLAN.md
+Last session: 2026-03-13T01:50:43.815Z
+Stopped at: Checkpoint 02-01 Task 3: awaiting visual verification of homepage
 Resume file: None

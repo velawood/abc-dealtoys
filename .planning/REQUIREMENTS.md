@@ -18,8 +18,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Homepage
 
-- [ ] **HOME-01**: Hero section with "Celebrate the closers" brand narrative, brand imagery, and primary CTA
-- [ ] **HOME-02**: Mission statement integrated into homepage storytelling
+- [x] **HOME-01**: Hero section with "Celebrate the closers" brand narrative, brand imagery, and primary CTA
+- [x] **HOME-02**: Mission statement integrated into homepage storytelling
 
 ### Content Pages
 
@@ -75,8 +75,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | BRAND-04 | Phase 1 | Complete |
 | BRAND-05 | Phase 1 | Complete |
 | BRAND-06 | Phase 1 | Pending |
-| HOME-01 | Phase 2 | Pending |
-| HOME-02 | Phase 2 | Pending |
+| HOME-01 | Phase 2 | Complete |
+| HOME-02 | Phase 2 | Complete |
 | PAGE-01 | Phase 3 | Pending |
 | PAGE-02 | Phase 3 | Pending |
 | PAGE-03 | Phase 3 | Pending |
