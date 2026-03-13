@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [ ] **Phase 1: Design System** - Establish brand tokens, typography, and navigation shell that everything else builds on
 - [x] **Phase 2: Homepage** - Deliver the brand narrative hero and mission storytelling that validates the design system in context (completed 2026-03-13)
-- [ ] **Phase 3: Brand Content Pages** - Build the About, How It Works, and Contact pages that complete the site's content skeleton
+- [x] **Phase 3: Brand Content Pages** - Build the About, How It Works, and Contact pages that complete the site's content skeleton (completed 2026-03-13)
 - [ ] **Phase 4: Product Customization** - Wire deal text customization fields to Shopify cart so buyers can personalize their order
 
 ## Phase Details
@@ -82,5 +82,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Design System | 2/3 | In Progress|  |
 | 2. Homepage | 1/1 | Complete   | 2026-03-13 |
-| 3. Brand Content Pages | 0/2 | Planning complete | - |
+| 3. Brand Content Pages | 2/2 | Complete   | 2026-03-13 |
 | 4. Product Customization | 0/TBD | Not started | - |

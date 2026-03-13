@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: "Checkpoint 02-01 Task 3: awaiting visual verification of homepage"
-last_updated: "2026-03-13T01:50:43.817Z"
+stopped_at: "Checkpoint: 03-02 Task 3 human-verify pending"
+last_updated: "2026-03-13T01:52:41.973Z"
 last_activity: "2026-03-12 — Plan 01-02 complete: branded Header/Footer with full nav and MobileNav overlay"
 progress:
   total_phases: 4
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 6
-  completed_plans: 3
+  completed_plans: 5
   percent: 33
 ---
 
@@ -51,6 +51,8 @@ Progress: [███░░░░░░░] 33%
 
 *Updated after each plan completion*
 | Phase 02-homepage P01 | 3 | 2 tasks | 7 files |
+| Phase 03-brand-content-pages P01 | 2 | 2 tasks | 2 files |
+| Phase 03-brand-content-pages P02 | 3 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -70,6 +72,10 @@ Recent decisions affecting current work:
 - [Phase 02-homepage]: svelte-inview v4.0.4 installed -- oninview_enter event handler confirmed compatible with Svelte 5 syntax
 - [Phase 02-homepage]: Direct ProductCard import in index.astro avoids double-nested container from Products.astro wrapper
 - [Phase 02-homepage]: client:visible hydration for ScrollReveal -- correct pattern for intersection-observer Svelte components
+- [Phase 03-brand-content-pages]: Used .button/.button-outline global CSS utilities for CTAs — consistent with design system conventions
+- [Phase 03-brand-content-pages]: BaseLayout title template appends '| ABC Deal Toys', so page title props use short-form to avoid duplication
+- [Phase 03-brand-content-pages]: onboarding@resend.dev used as from-address for zero-config testing; update after domain verification
+- [Phase 03-brand-content-pages]: CONTACT_EMAIL_TO falls back to delivered@resend.dev so build/dev works without env vars configured
 
 ### Pending Todos
 
@@ -82,6 +88,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-13T01:50:43.815Z
-Stopped at: Checkpoint 02-01 Task 3: awaiting visual verification of homepage
+Last session: 2026-03-13T01:52:41.969Z
+Stopped at: Checkpoint: 03-02 Task 3 human-verify pending
 Resume file: None

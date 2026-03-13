@@ -23,8 +23,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content Pages
 
-- [ ] **PAGE-01**: About / Our Story page with mission statement, brand narrative, and company credibility
-- [ ] **PAGE-02**: How It Works page showing 3-step process (browse → customize → order) with timeline expectations
+- [x] **PAGE-01**: About / Our Story page with mission statement, brand narrative, and company credibility
+- [x] **PAGE-02**: How It Works page showing 3-step process (browse → customize → order) with timeline expectations
 - [ ] **PAGE-03**: Contact / Get a Quote page with inquiry form capturing deal type, quantity, deadline, and message
 
 ### Product Experience
@@ -77,8 +77,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | BRAND-06 | Phase 1 | Pending |
 | HOME-01 | Phase 2 | Complete |
 | HOME-02 | Phase 2 | Complete |
-| PAGE-01 | Phase 3 | Pending |
-| PAGE-02 | Phase 3 | Pending |
+| PAGE-01 | Phase 3 | Complete |
+| PAGE-02 | Phase 3 | Complete |
 | PAGE-03 | Phase 3 | Pending |
 | PROD-01 | Phase 4 | Pending |
 | PROD-02 | Phase 4 | Pending |
