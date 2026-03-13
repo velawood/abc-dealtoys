@@ -1,23 +1,38 @@
 ---
 import Logo from "./Logo.astro";
 import CartIcon from "./CartIcon.svelte";
+import MobileNav from "./MobileNav.svelte";
 ---
 
-<header class="sticky top-0 z-40">
-  <div class="border-b bg-white/70 py-3 backdrop-blur-2xl">
-    <nav class="container grid grid-cols-3 items-center">
-      <a href="/">
-        <span class="sr-only">Logo</span>
+<header class="sticky top-0 z-40 bg-navy border-b border-gold/20">
+  <div class="container flex items-center justify-between py-4">
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-2" aria-label="ABC Deal Toys home">
+      <span class="text-white">
         <Logo />
+      </span>
+    </a>
+
+    <!-- Desktop navigation -->
+    <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide uppercase">
+      <a href="/products" class="text-white/80 hover:text-gold transition-colors duration-200">
+        Shop
       </a>
-      <h1
-        class="flex justify-center text-sm font-semibold text-gray-900 sm:text-xl"
-      >
-        Astro 🧑‍🚀 Shopify
-      </h1>
-      <div class="justify-self-end">
-        <CartIcon client:load />
-      </div>
+      <a href="/how-it-works" class="text-white/80 hover:text-gold transition-colors duration-200">
+        How It Works
+      </a>
+      <a href="/about" class="text-white/80 hover:text-gold transition-colors duration-200">
+        Our Story
+      </a>
+      <a href="/contact" class="text-white/80 hover:text-gold transition-colors duration-200">
+        Get a Quote
+      </a>
     </nav>
+
+    <!-- Right side: cart + mobile nav -->
+    <div class="flex items-center gap-2 text-white">
+      <CartIcon client:load />
+      <MobileNav client:load />
+    </div>
   </div>
 </header>
