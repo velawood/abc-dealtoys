@@ -57,7 +57,11 @@ Plans:
   1. A visitor can read the About / Our Story page and understand the company's mission and credibility
   2. A visitor can read How It Works and understand the 3-step process (browse -> customize -> order) with realistic timeline expectations
   3. A visitor can submit the Contact / Get a Quote form and the inquiry is delivered to the business via email
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — About / Our Story page and How It Works process page
+- [ ] 03-02-PLAN.md — Contact / Get a Quote page with Astro Action and Resend email delivery
 
 ### Phase 4: Product Customization
 **Goal**: A buyer can enter their deal details on a product page and check out knowing their customization is captured in the Shopify order
@@ -78,5 +82,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Design System | 1/3 | In Progress|  |
 | 2. Homepage | 0/1 | Planning complete | - |
-| 3. Brand Content Pages | 0/TBD | Not started | - |
+| 3. Brand Content Pages | 0/2 | Planning complete | - |
 | 4. Product Customization | 0/TBD | Not started | - |
