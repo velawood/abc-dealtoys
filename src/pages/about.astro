@@ -1,0 +1,208 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "About Us";
+const description =
+  "ABC Deal Toys crafts premium custom deal toys for investment bankers, lawyers, and professionals who close landmark transactions. Celebrate the closers.";
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-navy py-24 md:py-32">
+    <div class="container text-center">
+      <p class="mb-4 text-sm font-semibold uppercase tracking-widest text-gold/70">
+        Who We Are
+      </p>
+      <h1 class="text-4xl font-bold text-gold sm:text-5xl lg:text-6xl">
+        Our Story
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-lg text-white/80">
+        We exist for one reason: to help the people who close landmark deals mark
+        the moment in a way that lasts.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="grid items-center gap-12 md:grid-cols-2">
+        <!-- Text -->
+        <div>
+          <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-gold">
+            Our Mission
+          </p>
+          <h2 class="mb-6 text-3xl font-bold text-navy sm:text-4xl">
+            Celebrate the Closers
+          </h2>
+          <div class="space-y-4 text-base leading-relaxed text-slate/80">
+            <p>
+              Coffee's for closers — and so are our deal toys. ABC Deal Toys
+              started with a simple observation: the people who engineer the
+              world's most significant transactions deserve more than a handshake
+              and a wire confirmation.
+            </p>
+            <p>
+              We craft premium custom deal toys and financial tombstones for
+              investment bankers, M&amp;A lawyers, private equity professionals,
+              and the teams behind billion-dollar transactions. Every piece is
+              designed to reflect the gravity of the deal it commemorates.
+            </p>
+            <p>
+              This isn't memorabilia. It's a symbol of what you built — and
+              proof that you were in the room when it happened.
+            </p>
+          </div>
+        </div>
+
+        <!-- Decorative accent -->
+        <div class="flex items-center justify-center">
+          <div class="relative h-64 w-64">
+            <div
+              class="absolute inset-0 rounded-full border-2 border-gold/20"
+            ></div>
+            <div
+              class="absolute inset-8 rounded-full border-2 border-gold/40"
+            ></div>
+            <div
+              class="absolute inset-16 flex items-center justify-center rounded-full bg-navy"
+            >
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-12 w-12"
+                aria-hidden="true"
+              >
+                <polygon
+                  points="24,4 44,44 4,44"
+                  stroke="#ebbc28"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle cx="24" cy="24" r="6" fill="#ebbc28" opacity="0.6" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Credibility -->
+  <section class="bg-slate/5 py-16 md:py-24">
+    <div class="container">
+      <div class="mx-auto mb-12 max-w-2xl text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-gold">
+          Why ABC Deal Toys
+        </p>
+        <h2 class="text-3xl font-bold text-navy sm:text-4xl">
+          Built for the Business of Big Deals
+        </h2>
+      </div>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        <!-- Card 1 -->
+        <div class="rounded-lg bg-white p-8 shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gold/10">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="9" stroke="#ebbc28" stroke-width="1.5" />
+              <path
+                d="M8 12l2.5 2.5L16 9"
+                stroke="#ebbc28"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3 class="mb-3 text-xl font-semibold text-navy">
+            Precision Craftsmanship
+          </h3>
+          <p class="text-base leading-relaxed text-slate/70">
+            Every deal toy is custom-designed from the ground up. No
+            off-the-shelf templates, no generic plaques — just bespoke pieces
+            that reflect the specific transaction you closed.
+          </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="rounded-lg bg-white p-8 shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gold/10">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              aria-hidden="true"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="2" stroke="#ebbc28" stroke-width="1.5" />
+              <path
+                d="M7 8h10M7 12h7"
+                stroke="#ebbc28"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <h3 class="mb-3 text-xl font-semibold text-navy">
+            Industry Expertise
+          </h3>
+          <p class="text-base leading-relaxed text-slate/70">
+            We understand the traditions of deal tombstones — from the
+            typography conventions of investment banking to the prestige signals
+            that matter to your clients and partners.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="rounded-lg bg-white p-8 shadow-sm">
+          <div class="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-gold/10">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="9" stroke="#ebbc28" stroke-width="1.5" />
+              <path
+                d="M12 7v5l3 3"
+                stroke="#ebbc28"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h3 class="mb-3 text-xl font-semibold text-navy">Fast Turnaround</h3>
+          <p class="text-base leading-relaxed text-slate/70">
+            Our streamlined ordering process gets your deal toy from concept to
+            delivery efficiently. Because the deal won't wait — and neither
+            should the trophy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-navy py-16 md:py-24">
+    <div class="container text-center">
+      <h2 class="mb-4 text-3xl font-bold text-gold sm:text-4xl">
+        Ready to celebrate your next close?
+      </h2>
+      <p class="mx-auto mb-8 max-w-xl text-base text-white/70">
+        Tell us about your deal and we'll craft something worth putting on the
+        shelf.
+      </p>
+      <a href="/contact" class="button">Get in Touch</a>
+    </div>
+  </section>
+</BaseLayout>
