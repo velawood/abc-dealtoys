@@ -11,9 +11,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **BRAND-01**: Site uses Baskerville as primary typeface (self-hosted from assets, all weights, with font-display: swap and preloading)
 - [x] **BRAND-02**: Brand colors applied site-wide via Tailwind theme tokens (Victory Gold #ebbc28, Heritage Navy #052a38, Slate #1a1b1b, Ivy Green #00442e)
-- [ ] **BRAND-03**: All pages are mobile-responsive with touch-friendly interactions
-- [ ] **BRAND-04**: Header navigation links to all pages with branded styling
-- [ ] **BRAND-05**: Footer with company info, navigation links, and brand identity
+- [x] **BRAND-03**: All pages are mobile-responsive with touch-friendly interactions
+- [x] **BRAND-04**: Header navigation links to all pages with branded styling
+- [x] **BRAND-05**: Footer with company info, navigation links, and brand identity
 - [ ] **BRAND-06**: Micro-interactions on interactive elements (hover states, scroll reveals, subtle transitions)
 
 ### Homepage
@@ -71,9 +71,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | BRAND-01 | Phase 1 | Complete |
 | BRAND-02 | Phase 1 | Complete |
-| BRAND-03 | Phase 1 | Pending |
-| BRAND-04 | Phase 1 | Pending |
-| BRAND-05 | Phase 1 | Pending |
+| BRAND-03 | Phase 1 | Complete |
+| BRAND-04 | Phase 1 | Complete |
+| BRAND-05 | Phase 1 | Complete |
 | BRAND-06 | Phase 1 | Pending |
 | HOME-01 | Phase 2 | Pending |
 | HOME-02 | Phase 2 | Pending |

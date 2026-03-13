@@ -80,7 +80,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Design System | 1/3 | In Progress|  |
+| 1. Design System | 2/3 | In Progress|  |
 | 2. Homepage | 0/1 | Planning complete | - |
 | 3. Brand Content Pages | 0/2 | Planning complete | - |
 | 4. Product Customization | 0/TBD | Not started | - |
