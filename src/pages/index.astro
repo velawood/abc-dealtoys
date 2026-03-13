@@ -1,10 +1,14 @@
 ---
-import { getProducts } from "./../utils/shopify";
+import { getProducts } from "../utils/shopify";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Products from "../components/Products.astro";
+import Hero from "../components/Hero.astro";
+import MissionStatement from "../components/MissionStatement.astro";
+import ProductCard from "../components/ProductCard.astro";
+import ScrollReveal from "../components/ScrollReveal.svelte";
 import { setCache } from "../utils/cache";
 
-const title = "Astro + Shopify";
+const title = "Premium Deal Toys & Financial Tombstones";
+const description = "Celebrate the closers with custom deal toys and financial tombstones crafted for the world's most significant transactions.";
 const headers = Astro.request.headers;
 const ip = headers.get("x-vercel-forwarded-for") || Astro.clientAddress;
 const products = await getProducts({ buyerIP: ip });
@@ -12,6 +16,20 @@ const products = await getProducts({ buyerIP: ip });
 setCache.short(Astro);
 ---
 
-<BaseLayout title={title}>
-  <Products products={products} />
+<BaseLayout title={title} description={description}>
+  <Hero />
+  <MissionStatement />
+  <section class="bg-slate/5 py-20 lg:py-28">
+    <div class="container">
+      <ScrollReveal client:visible animation="fade-up">
+        <div class="mx-auto mb-12 max-w-2xl text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-gold">Our Collection</p>
+          <h2 class="text-3xl font-bold text-navy sm:text-4xl">Explore Our Deal Toys</h2>
+        </div>
+      </ScrollReveal>
+      <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+        {products.map((product) => <ProductCard product={product} />)}
+      </div>
+    </div>
+  </section>
 </BaseLayout>

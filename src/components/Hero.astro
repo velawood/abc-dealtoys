@@ -1,0 +1,48 @@
+---
+import ScrollReveal from "./ScrollReveal.svelte";
+---
+
+<section class="relative overflow-hidden bg-navy">
+  <div class="container py-20 lg:py-32">
+    <div class="grid items-center gap-12 lg:grid-cols-2">
+      <!-- Text column -->
+      <div class="text-center lg:text-left">
+        <ScrollReveal client:visible animation="fade-up">
+          <p class="mb-4 text-sm font-semibold uppercase tracking-widest text-gold">
+            Premium Deal Toys &amp; Financial Tombstones
+          </p>
+        </ScrollReveal>
+        <ScrollReveal client:visible animation="fade-up" delay={150}>
+          <h1 class="mb-6 text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+            Celebrate<br />the Closers.
+          </h1>
+        </ScrollReveal>
+        <ScrollReveal client:visible animation="fade-up" delay={300}>
+          <p class="mx-auto mb-8 max-w-lg text-lg leading-relaxed text-white/70 lg:mx-0">
+            Every landmark deal deserves a landmark moment. We craft bespoke deal toys and financial tombstones that honor the transactions — and the people — that make them happen.
+          </p>
+        </ScrollReveal>
+        <ScrollReveal client:visible animation="fade-up" delay={450}>
+          <div class="flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
+            <a href="/products" class="button">Shop Deal Toys</a>
+            <a href="/contact" class="button-outline text-gold">Get a Quote</a>
+          </div>
+        </ScrollReveal>
+      </div>
+      <!-- Image column -->
+      <ScrollReveal client:visible animation="fade-in" delay={300}>
+        <div class="relative">
+          <img
+            src="/images/hero-deal-toys.jpg"
+            alt="Premium custom deal toys crafted to celebrate landmark transactions"
+            class="w-full rounded-sm shadow-2xl"
+            width="800"
+            height="600"
+            loading="eager"
+          />
+          <div class="absolute inset-0 rounded-sm ring-1 ring-white/10"></div>
+        </div>
+      </ScrollReveal>
+    </div>
+  </div>
+</section>

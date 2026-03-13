@@ -1,0 +1,30 @@
+---
+import ScrollReveal from "./ScrollReveal.svelte";
+---
+
+<section class="bg-white py-20 lg:py-28">
+  <div class="container">
+    <div class="mx-auto max-w-3xl text-center">
+      <ScrollReveal client:visible animation="fade-up">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-gold">
+          Our Mission
+        </p>
+      </ScrollReveal>
+      <ScrollReveal client:visible animation="fade-up" delay={150}>
+        <h2 class="mb-8 text-3xl font-bold leading-snug text-navy sm:text-4xl">
+          Every Deal Tells a Story.<br />We Make It Tangible.
+        </h2>
+      </ScrollReveal>
+      <ScrollReveal client:visible animation="fade-up" delay={300}>
+        <p class="mb-6 text-lg leading-relaxed text-slate/80">
+          Behind every closed deal is a team that worked late nights, navigated complexity, and made it happen. ABC Deal Toys creates premium commemorative pieces that capture the magnitude of those moments — not just as trophies, but as stories cast in crystal, metal, and glass.
+        </p>
+      </ScrollReveal>
+      <ScrollReveal client:visible animation="fade-up" delay={450}>
+        <p class="text-lg leading-relaxed text-slate/80">
+          From billion-dollar mergers to milestone fund closings, we've helped firms across Wall Street and beyond celebrate the people who make deals happen. Because closers deserve more than a handshake.
+        </p>
+      </ScrollReveal>
+    </div>
+  </div>
+</section>
