@@ -29,7 +29,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Product Experience
 
-- [ ] **PROD-01**: Deal text customization fields on product detail page (deal name, parties involved, deal type, amount, close date)
+- [x] **PROD-01**: Deal text customization fields on product detail page (deal name, parties involved, deal type, amount, close date)
 - [x] **PROD-02**: Customization data persists through Shopify checkout via cart line item properties/attributes
 - [x] **PROD-03**: Product grid and detail pages restyled to match brand identity
 
@@ -80,7 +80,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PAGE-01 | Phase 3 | Complete |
 | PAGE-02 | Phase 3 | Complete |
 | PAGE-03 | Phase 3 | Complete |
-| PROD-01 | Phase 4 | Pending |
+| PROD-01 | Phase 4 | Complete |
 | PROD-02 | Phase 4 | Complete |
 | PROD-03 | Phase 4 | Complete |
 
