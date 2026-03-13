@@ -1,0 +1,123 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "How It Works";
+const description =
+  "From browsing to unboxing — your custom deal toy in three simple steps. Learn how ABC Deal Toys handles your order from browse to delivery.";
+---
+
+<BaseLayout title={title} description={description}>
+  <!-- Hero -->
+  <section class="bg-navy py-24 md:py-32">
+    <div class="container text-center">
+      <p class="mb-4 text-sm font-semibold uppercase tracking-widest text-gold/70">
+        The Process
+      </p>
+      <h1 class="text-4xl font-bold text-gold sm:text-5xl lg:text-6xl">
+        How It Works
+      </h1>
+      <p class="mx-auto mt-6 max-w-2xl text-lg text-white/80">
+        From browsing to unboxing — your custom deal toy in three simple steps.
+      </p>
+    </div>
+  </section>
+
+  <!-- Steps -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="mx-auto mb-12 max-w-2xl text-center">
+        <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-gold">
+          Three Steps
+        </p>
+        <h2 class="text-3xl font-bold text-navy sm:text-4xl">
+          Simple. Streamlined. Prestige.
+        </h2>
+      </div>
+
+      <div class="grid gap-8 lg:grid-cols-3">
+        <!-- Step 1 -->
+        <div class="rounded-lg bg-white p-8 shadow-md">
+          <p class="mb-4 text-5xl font-bold text-gold leading-none">1</p>
+          <h3 class="mb-3 text-xl font-semibold text-navy">
+            Browse &amp; Choose
+          </h3>
+          <p class="mb-6 text-base leading-relaxed text-slate/80">
+            Explore our collection of premium deal toy templates. Each design is
+            crafted to reflect the prestige of your transaction.
+          </p>
+          <a
+            href="/"
+            class="text-sm font-semibold uppercase tracking-wider text-gold underline-offset-4 hover:underline"
+          >
+            Browse the Shop &rarr;
+          </a>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="rounded-lg bg-white p-8 shadow-md">
+          <p class="mb-4 text-5xl font-bold text-gold leading-none">2</p>
+          <h3 class="mb-3 text-xl font-semibold text-navy">
+            Customize Your Details
+          </h3>
+          <p class="text-base leading-relaxed text-slate/80">
+            Add your deal specifics — transaction name, parties involved,
+            closing date, and deal value. Upload your firm's logo to make it
+            truly yours.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="rounded-lg bg-white p-8 shadow-md">
+          <p class="mb-4 text-5xl font-bold text-gold leading-none">3</p>
+          <h3 class="mb-3 text-xl font-semibold text-navy">
+            Place Your Order
+          </h3>
+          <p class="text-base leading-relaxed text-slate/80">
+            Review your customization, add to cart, and check out securely
+            through Shopify. We handle the rest.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div
+        class="mx-auto max-w-2xl border-t border-gold/30 pt-12 text-center"
+      >
+        <p class="mb-3 text-sm font-semibold uppercase tracking-widest text-gold">
+          Timeline
+        </p>
+        <h2 class="mb-6 text-2xl font-bold text-navy sm:text-3xl">
+          What to Expect
+        </h2>
+        <p class="text-base leading-relaxed text-slate/80">
+          Standard orders ship within <strong class="text-navy">2–3 weeks</strong>
+          of order confirmation. Rush orders may be available — contact us for details.
+        </p>
+        <p class="mt-4 text-sm text-slate/60">
+          You'll receive email updates at each stage: confirmation, production,
+          and shipping.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-navy py-16 md:py-24">
+    <div class="container text-center">
+      <h2 class="mb-4 text-3xl font-bold text-gold sm:text-4xl">
+        Ready to get started?
+      </h2>
+      <p class="mx-auto mb-8 max-w-xl text-base text-white/70">
+        Browse our collection or reach out to discuss a custom order.
+      </p>
+      <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <a href="/" class="button">Browse Collection</a>
+        <a href="/contact" class="button-outline">Get a Quote</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
