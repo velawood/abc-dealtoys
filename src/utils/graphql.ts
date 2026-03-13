@@ -43,6 +43,10 @@ fragment cartFragment on Cart {
           currencyCode
         }
       }
+      attributes {
+        key
+        value
+      }
     }
   }
 }
@@ -123,8 +127,8 @@ export const GetCartQuery = `#graphql
 `;
 
 export const CreateCartMutation = `#graphql
-  mutation ($id: ID!, $quantity: Int!) {
-    cartCreate (input: { lines: [{ merchandiseId: $id, quantity: $quantity }] }) {
+  mutation ($id: ID!, $quantity: Int!, $attributes: [AttributeInput!]) {
+    cartCreate (input: { lines: [{ merchandiseId: $id, quantity: $quantity, attributes: $attributes }] }) {
       cart {
         ...cartFragment
       }
@@ -138,8 +142,8 @@ export const CreateCartMutation = `#graphql
 `;
 
 export const AddCartLinesMutation = `#graphql
-  mutation ($cartId: ID!, $merchandiseId: ID!, $quantity: Int) {
-    cartLinesAdd (cartId: $cartId, lines: [{ merchandiseId: $merchandiseId, quantity: $quantity }]) {
+  mutation ($cartId: ID!, $merchandiseId: ID!, $quantity: Int, $attributes: [AttributeInput!]) {
+    cartLinesAdd (cartId: $cartId, lines: [{ merchandiseId: $merchandiseId, quantity: $quantity, attributes: $attributes }]) {
       cart {
         ...cartFragment
       }

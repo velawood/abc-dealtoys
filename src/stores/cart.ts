@@ -63,14 +63,18 @@ export async function initCart() {
 }
 
 // Add item to cart or create a new cart if it doesn't exist yet
-export async function addCartItem(item: { id: string; quantity: number }) {
+export async function addCartItem(item: {
+  id: string;
+  quantity: number;
+  attributes?: Array<{ key: string; value: string }>;
+}) {
   const localCart = cart.get();
   const cartId = localCart?.id;
 
   isCartUpdating.set(true);
 
   if (!cartId) {
-    const cartData = await createCart(item.id, item.quantity);
+    const cartData = await createCart(item.id, item.quantity, item.attributes || []);
 
     if (cartData) {
       cart.set({
@@ -85,7 +89,7 @@ export async function addCartItem(item: { id: string; quantity: number }) {
       isCartDrawerOpen.set(true);
     }
   } else {
-    const cartData = await addCartLines(cartId, item.id, item.quantity);
+    const cartData = await addCartLines(cartId, item.id, item.quantity, item.attributes || []);
 
     if (cartData) {
       cart.set({

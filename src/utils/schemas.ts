@@ -21,8 +21,14 @@ export const ImageResult = z
   })
   .nullable();
 
+export const CartAttributeResult = z.object({
+  key: z.string(),
+  value: z.string(),
+});
+
 export const CartItemResult = z.object({
   id: z.string(),
+  attributes: z.array(CartAttributeResult).optional().default([]),
   cost: z.object({
     amountPerQuantity: MoneyV2Result,
     subtotalAmount: MoneyV2Result,

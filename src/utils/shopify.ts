@@ -131,8 +131,12 @@ export const getProductRecommendations = async (options: {
 };
 
 // Create a cart and add a line item to it and return the cart object
-export const createCart = async (id: string, quantity: number) => {
-  const data = await makeShopifyRequest(CreateCartMutation, { id, quantity });
+export const createCart = async (
+  id: string,
+  quantity: number,
+  attributes: Array<{ key: string; value: string }> = []
+) => {
+  const data = await makeShopifyRequest(CreateCartMutation, { id, quantity, attributes });
   const { cartCreate } = data;
   const { cart } = cartCreate;
   const parsedCart = CartResult.parse(cart);
@@ -144,12 +148,14 @@ export const createCart = async (id: string, quantity: number) => {
 export const addCartLines = async (
   id: string,
   merchandiseId: string,
-  quantity: number
+  quantity: number,
+  attributes: Array<{ key: string; value: string }> = []
 ) => {
   const data = await makeShopifyRequest(AddCartLinesMutation, {
     cartId: id,
     merchandiseId,
     quantity,
+    attributes,
   });
   const { cartLinesAdd } = data;
   const { cart } = cartLinesAdd;
