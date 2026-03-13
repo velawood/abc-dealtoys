@@ -44,7 +44,10 @@ Plans:
   1. The hero section presents "Celebrate the closers" brand narrative with brand imagery and a clear call-to-action
   2. The mission statement is woven into the homepage copy in a way that reinforces brand credibility
   3. Scroll-triggered animations load content progressively without layout shift
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [ ] 02-01-PLAN.md — Hero section, mission statement storytelling, scroll animations, and visual verification
 
 ### Phase 3: Brand Content Pages
 **Goal**: The About, How It Works, and Contact pages are live and fully navigable, filling out the site's content structure and enabling inbound inquiries
@@ -52,7 +55,7 @@ Plans:
 **Requirements**: PAGE-01, PAGE-02, PAGE-03
 **Success Criteria** (what must be TRUE):
   1. A visitor can read the About / Our Story page and understand the company's mission and credibility
-  2. A visitor can read How It Works and understand the 3-step process (browse → customize → order) with realistic timeline expectations
+  2. A visitor can read How It Works and understand the 3-step process (browse -> customize -> order) with realistic timeline expectations
   3. A visitor can submit the Contact / Get a Quote form and the inquiry is delivered to the business via email
 **Plans**: TBD
 
@@ -69,11 +72,11 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Design System | 1/3 | In Progress|  |
-| 2. Homepage | 0/TBD | Not started | - |
+| 2. Homepage | 0/1 | Planning complete | - |
 | 3. Brand Content Pages | 0/TBD | Not started | - |
 | 4. Product Customization | 0/TBD | Not started | - |
