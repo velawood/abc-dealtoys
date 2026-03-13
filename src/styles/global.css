@@ -65,6 +65,26 @@
   :after {
     @apply border-gray-200;
   }
+
+  .button {
+    @apply inline-flex items-center justify-center;
+    @apply bg-gold text-navy font-semibold text-sm tracking-wider uppercase;
+    @apply px-8 py-3 rounded-sm;
+    @apply transition-all duration-200 ease-in-out;
+    @apply hover:bg-gold/85 hover:shadow-lg;
+    @apply focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:outline-none;
+    @apply disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .button-outline {
+    @apply inline-flex items-center justify-center;
+    @apply border-2 border-gold text-gold bg-transparent font-semibold text-sm tracking-wider uppercase;
+    @apply px-8 py-3 rounded-sm;
+    @apply transition-all duration-200 ease-in-out;
+    @apply hover:bg-gold hover:text-navy;
+    @apply focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:outline-none;
+    @apply disabled:cursor-not-allowed disabled:opacity-60;
+  }
 }
 
 /* 3. Container utility */
