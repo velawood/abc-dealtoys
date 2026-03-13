@@ -71,7 +71,11 @@ Plans:
   1. The product detail page shows branded deal text input fields (deal name, parties, deal type, amount, close date) and the Add to Cart button is disabled until required fields are filled
   2. After checkout, the Shopify admin order view shows all customization fields associated with the correct line item
   3. The product grid and detail pages match the brand identity established in Phase 1
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 04-01-PLAN.md — Cart attributes pipeline (GraphQL + Zod + store) and brand restyling of product pages
+- [ ] 04-02-PLAN.md — Deal customization form on PDP with validation and visual verification
 
 ## Progress
 
@@ -83,4 +87,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Design System | 3/3 | Complete   | 2026-03-13 |
 | 2. Homepage | 1/1 | Complete   | 2026-03-13 |
 | 3. Brand Content Pages | 2/2 | Complete   | 2026-03-13 |
-| 4. Product Customization | 0/TBD | Not started | - |
+| 4. Product Customization | 0/2 | Not started | - |
